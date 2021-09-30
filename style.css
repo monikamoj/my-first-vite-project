@@ -6,3 +6,23 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+p {
+ 
+}
+
+i {
+  color:blue;
+}
+.description {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  border: solid;
+  border-color: blue;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+}
