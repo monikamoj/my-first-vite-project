@@ -21,10 +21,11 @@ window.addEventListener("load", (event) => {
   <img class="maining" src=${avatarGenerator} alt="selfhtml">
   <h1>${firstNameGenerator} ${secondNameGenerator} ${lastNameGenerator}</h1>
   <div>
-  <p><img class="icon" src="images/phone-solid.svg">${telGenerator}</p>
-  <p><img class="icon" src="images/envelope-square-solid.svg">${mailGenerator}</p>
+  <p><i class="fas fa-phone-alt"></i> ${telGenerator}</p>
+ 
+  <p><i class="far fa-envelope"></i> ${mailGenerator}</p>
   </div>
-  <p>
+  <p class="description">
   Hey, my name is ${firstNameGenerator} and I am a ${jobGenerator}.I was born in the year of ${yearGenerator}
   in the city of ${cityGenerator}. My favourite animal is the ${animalGenerator}. But I also love numbers!
   My favourite one is ${numberGenerator}.
